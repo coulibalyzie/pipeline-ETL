@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Données générées
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Journaux
+logs/*
+!logs/.gitkeep
+
+# Éditeurs
+.vscode/
+.idea/
